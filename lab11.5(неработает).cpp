@@ -9,11 +9,17 @@ int main()
     {
         if (a>b)
         {
-            a=a%b;
+            while (a>b)
+						{
+							a-=b;
+						}
         }
         else
         {
-            b=b%a;
+            while (b>a)
+						{
+							b-=a;
+						}
         }
     }
     cout<<"НОД="<<a<<endl;
