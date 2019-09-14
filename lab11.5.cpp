@@ -10,16 +10,16 @@ int main()
         if (a>b)
         {
             while (a>b)
-						{
-							a-=b;
-						}
+		{
+			a-=b;
+		}
         }
         else
         {
             while (b>a)
-						{
-							b-=a;
-						}
+		{
+			b-=a;
+		}
         }
     }
     cout<<"НОД="<<a<<endl;
